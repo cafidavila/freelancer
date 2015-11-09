@@ -1,0 +1,194 @@
+*{
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.font{
+	font-family: sans-serif;
+}
+.navbar-fixed-top{
+	padding: 20px;
+}
+.color-white{
+	color: white;
+}
+.color-black{
+	color: black;
+}
+span{
+    color: #18bc9c;
+}
+header{
+	text-align: center;
+	background: #18bc9c;
+	color: white;
+}
+header .container{
+	padding-top: 200px;
+    padding-bottom: 100px;
+}
+header .intro .titulo{
+	display: block;
+    font-size: 4.75em;
+    font-weight: 700;
+    color: white;
+}
+.hr {
+	margin: 25px auto 30px;
+    border-top: solid 5px;
+    width: 300px;
+}
+header .fa-star:before {
+    border: 7px solid #18bc9c;
+    position: relative;
+    bottom: 15px;
+    font-size: 28px;
+    background: #18bc9c;
+    text-align: center;
+}
+header .subtitulo{
+	display: block;
+    color: white;
+	
+}
+section{
+	padding: 100px 0px;
+}
+section h2{
+	font-size: 3em;
+	font-weight: bold;
+}
+.portfolio-img{
+	margin: 0 0 30px;
+}
+#portfolio hr{
+	border:1px solid black;
+	margin: 25px auto 30px;
+    border-top: solid 5px;
+    width: 300px;
+}
+#portfolio .fa-star:before {
+    border: 7px solid white;
+    position: relative;
+    bottom: 15px;
+    font-size: 28px;
+    background: white;
+    text-align: center;
+ }
+ #about{
+ 	text-align: center;
+	background: #18bc9c;
+	color: white;
+ }
+ #about a{
+ 	
+ 	border: 1px solid white;
+    padding: 15px;
+    border-radius: 5px;
+    display: block;
+    width: 199px;
+    margin: 0 auto;
+    margin-top: 50px;
+ }
+
+ #about .fa-star:before {
+   border: 7px solid #18bc9c;
+    position: relative;
+    bottom: 15px;
+    font-size: 28px;
+    background: #18bc9c;
+    text-align: center;
+}
+#contact hr{
+	border:1px solid black;
+	margin: 25px auto 30px;
+    border-top: solid 5px;
+    width: 300px;
+}
+#contact .fa-star:before {
+    border: 7px solid white;
+    position: relative;
+    bottom: 15px;
+    font-size: 28px;
+    background: white;
+    text-align: center;
+ }
+ footer .footer-header{
+ 	background: #2C3E50;
+    padding:50px;
+ }
+ footer .btn-social {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 20px;
+    line-height: 45px;
+}
+footer.btn-outline {
+    margin-top: 15px;
+    border: solid 2px #fff;
+    font-size: 20px;
+    color: #fff;
+    background: 0 0;
+    transition: all .3s ease-in-out;
+}
+footer .footer-section{
+    background: #1a242f;
+    padding: 20px 0px;
+}
+ #portfolio  .caption {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background: rgba(24,188,156,.9);
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;
+}
+#portfolio  .caption .caption-content {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 20px;
+    margin-top: -12px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+#portfolio a:hover{
+    color: #18bc9c;
+    text-decoration: none;
+}
+#about-nudo .row:nth-child(2){
+    padding: 30px 0px 0px 0px;
+}
+#portfolio .caption {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background: rgba(24,188,156,.9);
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;
+}
+#portfolio .caption .caption-content {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 20px;
+    margin-top: -12px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+#portfolio .fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
